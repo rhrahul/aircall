@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
+import LogoLight from "../../public/imgs/logo-light.svg";
+import Logo from "../../public/imgs/logo.svg";
 
 const Settings = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -22,13 +24,11 @@ const Settings = () => {
             onChange={(e) => {
               if (e.target.checked) {
                 document.documentElement.classList.add("dark");
-                document.getElementById("logo-header").src =
-                  "../public/imgs/logo-light.svg";
+                document.getElementById("logo-header").src = LogoLight;
                 setIsDarkMode(true);
               } else {
                 document.documentElement.classList.remove("dark");
-                document.getElementById("logo-header").src =
-                  "../public/imgs/logo.svg";
+                document.getElementById("logo-header").src = Logo;
                 setIsDarkMode(false);
               }
             }}

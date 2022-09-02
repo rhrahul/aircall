@@ -1,5 +1,6 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
+import Pic from "../../public/imgs/profile.png";
 
 const User = () => {
   return (
@@ -11,7 +12,7 @@ const User = () => {
       <div className="p-5 bg-white dark:bg-slate-900 dark:text-slate-50 w-full rounded-xl">
         <div className="flex items-center justify-between border-b pb-5 border-slate-100 dark:border-slate-800">
           <div className="flex items-center justify-between w-20 h-20 rounded-full bg-slate-200 dark:bg-slate-700">
-            <img src="../../public/imgs/profile.png" className="w-full -mb-2" />
+            <img src={Pic} className="w-full -mb-2" />
           </div>
           <div className="ml-5 flex-1">
             <h2 className="text-xl font-bold">Rahul Pipaliya</h2>
