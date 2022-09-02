@@ -1,5 +1,5 @@
 var path = require("path");
-
+const webpack = require("webpack");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -40,6 +40,7 @@ module.exports = {
     historyApiFallback: true,
   },
   plugins: [
+    new webpack.ProgressPlugin(),
     new HtmlWebPackPlugin({
       template: "./public/index.html",
       filename: "./index.html",
