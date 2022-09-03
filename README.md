@@ -1,6 +1,6 @@
 ## Design and Develop
 
-![app-demo](./App Demo.gif)
+![app-demo](App Demo.gif)
 
 It was a little bit challenging at first because of vanilla react with webpack. But I quickly figured out things and started working on it.
 
