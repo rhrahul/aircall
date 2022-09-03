@@ -1,6 +1,6 @@
 ## Design and Develop
 
-![app-demo](App Demo.gif)
+![app-demo](https://github.com/rhrahul/aircall/blob/785b2e7c566926041884edb23b35621a64b2cfc5/App%20Demo.gif)
 
 It was a little bit challenging at first because of vanilla react with webpack. But I quickly figured out things and started working on it.
 
