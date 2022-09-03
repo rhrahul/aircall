@@ -1,5 +1,7 @@
 ## Design and Develop
 
+![app-demo](./App Demo.gif)
+
 It was a little bit challenging at first because of vanilla react with webpack. But I quickly figured out things and started working on it.
 
  1. **UI Design:** I did a little bit of research on what exactly this app is trying to achieve and then I realised many things which were not clear to me before. And I also studied few similar apps. 
