@@ -7,7 +7,7 @@ It was a little bit challenging at first because of vanilla react with webpack. 
  1. **UI Design:** I did a little bit of research on what exactly this app is trying to achieve and then I realised many things which were not clear to me before. And I also studied few similar apps. 
  2. **My Approach :** I wanted to do something simple and colorful, so I started designing in sketch and finally came up with the design to implement.
  3. **Implementation:** I used mainly [tailwind-css](https://tailwindcss.com/) for styling (This is only second time I am using tailwind-css, but I'm already familiar with it now). Then for UX I chose [Framer Motion](https://www.framer.com/motion/) library because I was familiar with it and it was easy for me to pick up again. For icons I've use [flaticon uicons](https://www.flaticon.com/uicons) (Huge thanks to them). I've also used [react-tooltip](https://www.npmjs.com/package/react-tooltip) component.
- 4. **Result:** [(Click Here for Result)](https://63126668f972d200091aa410--celebrated-pavlova-b2f37b.netlify.app/) I am very happy with the result overall but I didn't had enough time to write tests just because most of my time was utilized in coming up with the design.
+ 4. **Result:** (Click for Result)[Netlify](https://63126668f972d200091aa410--celebrated-pavlova-b2f37b.netlify.app/) - [Vercel](https://aircall-alpha.vercel.app/)  I am very happy with the result overall but I didn't had enough time to write tests just because most of my time was utilized in coming up with the design.
 
 
 ## Summary
